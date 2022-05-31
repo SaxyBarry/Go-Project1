@@ -84,7 +84,7 @@ func main(){
 	// str := flag.String("username", "root", "Specify login username")
 	// int_flag := flag.Int("port", 3006, "specify the port")
 	useColor := flag.Bool("color", false, "display colorized output\nValid colors are: Red, Green, Blue or Yellow")
-	lang := flag.String("lang", "en", "language that the message is displayed in\nen, de, sp")
+	lang := flag.String("lang", "en", "language that the message is displayed in")
 	flag.Parse()
 	
 	if *useColor {
